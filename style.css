@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/imagini/foto1.jpg);
+  background-size: cover;
+}
+.flex-container {
+  display: flex;
+  background-color: black;
+  height: 530px;
+  width: 810px;
+  margin: 30px auto;
+  opacity: 0.7;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding-top: 40px;
+  z-index: auto;
+}
+
+img {
+  display: flex;
+  height: 65px;
+  width: 140px;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  color: rgb(0, 255, 0);
+  text-align: center;
+}
+.content {
+  height: 25px;
+  width: 80%;
+  margin-top: 5px;
+  background-color: rgb(0, 255, 0);
+  text-align: center;
+}
+
+.content-list {
+  text-align: left;
+  display: block;
+  color: white;
+  font-size: small;
+  margin-top: 20px;
+}
+
+.monopattino-name {
+  font-size: large;
+}
+
+.button {
+  height: 20px;
+  padding-top: 2.5px;
+}
+
+.gino-batteria {
+  background-color: orange;
+  border-radius: 3px;
+  height: 20px;
+  width: 250px;
+}
+
+.mike-batteria {
+  background-color: green;
+  border-radius: 3px;
+  height: 20px;
+  width: 400px;
+}
+.fede-batteria {
+  background-color: red;
+  border-radius: 3px;
+  height: 20px;
+  width: 100px;
+}
+.monopattino {
+  margin-bottom: 20px;
+}
